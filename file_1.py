@@ -9,3 +9,5 @@ elif nv == 0:
     print("Zero")
 elif nv > 0:
     print("Positive")
+for i in range(3):
+    print(i, end=" ")
