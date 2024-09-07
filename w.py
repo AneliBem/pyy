@@ -5,3 +5,14 @@ for n in range(2, 21):
             continue
     else:
         print(n, 'просте число')
+
+a = 6
+match a:
+    case 1:
+         print("Один")
+    case 2:
+        print("Два")
+    case 4:
+        print("Чотири")
+    case _:
+        print("Інше число")
