@@ -61,3 +61,19 @@ print(u)
 # but they can contain mutable objects:
 v = ([1, 2, 3], [3, 2, 1])
 print(v)
+
+basket = {'apple', 'orange', 'apple', 'pear', 'orange', 'banana'}
+print(basket)                      #  идалення дублікатів
+
+
+a = set('abracadabra')
+b = set('alacazam')
+print(a)                                  #  a
+
+print(a - b)                              # букви b якиз нема в а
+
+print(a | b)                              # всі букви a i b
+
+print(a & b)                              # однакові
+
+print(a ^ b)                              # неоднакові
